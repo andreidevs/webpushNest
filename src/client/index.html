@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Push Notifications using Node.js and Web Push</title>
+    <link rel="icon" type="image/png" href="https://d2cy1obokpvee9.cloudfront.net/manifest/favicon-196x196.png" sizes="196x196" class="next-head">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Web Push Notifications Demo</h1>
+    </header>
+
+    <div class="buttons">
+        <button style="margin-bottom: 15px;" class="trigger-push">Trigger Push Notification</button>
+        <div class="hide check_block" style="margin-top: 30px;">
+            <div style="margin-bottom: 15px;font-weight: bold;">
+                На какой тип вы подписываетесь?
+            </div>
+            <div style="margin-bottom: 15px;">
+                <input class="type_check" type="checkbox" name="news1" value="news1"> Тип уведомлений 1
+            </div>
+            <div style="margin-bottom: 15px;">
+                <input class="type_check" type="checkbox" name="news2" value="news2"> Тип уведомлений 2
+            </div>
+            <div style="margin-bottom: 15px;">
+                <input class="type_check" type="checkbox" name="news3" value="news3"> Тип уведомлений 3
+            </div>
+            <div>
+                <button class="trigger-push2">Сохранить</button>
+                <button class="trigger-push3">Отправить для выбранных типов</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
